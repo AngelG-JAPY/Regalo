@@ -1,0 +1,204 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Nunito', sans-serif;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000;
+    height: 60px;
+    color: #E5E5E5;
+}
+
+.menu{
+    position: relative;
+    height: 100%;
+}
+
+.menu-bar,
+.menu-bar::before,
+.menu-bar::after{
+    background-color: #fff;
+    margin-right: 1rem;
+    border-radius: 10px;
+    width: 25px;
+    height: 3px;
+}
+
+.menu-bar{
+    margin: 1.3rem 1rem .5rem;
+}
+
+.menu-bar::before,
+.menu-bar::after{
+    content: '';
+    display: block;
+    position: absolute;
+}
+
+.menu-bar::before{
+    top: 50%;
+}
+
+.menu-bar::after{
+    bottom: 30%;
+}
+
+.text-logo{
+    font-size: 1rem;
+    padding-left: 1em;
+}
+
+.hero{
+    background-image: url('vicky/hero.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+    text-align: center;
+}
+
+.title,
+.btn-gallery,
+.date{
+    position: absolute;
+    top: 20%;
+    color: #fff;
+    display: block;
+}
+
+.date{
+    top: 60%;
+    left: 20%;
+    font-size: 1.5rem;
+}
+
+.title{
+    font-weight: 700;
+}
+
+.btn-gallery{
+    top: 40%;
+    left: 10%;
+    text-decoration: none;
+    padding: 1em;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.item{
+    width: 100%;
+}
+
+
+/* Cuerpo-main */
+
+.title-intro{
+    background-color: #000;
+    margin: 1em 0;
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+}
+
+.intro-text{
+    padding: 1em;
+    text-align: justify;
+}
+
+.intro-text span{
+    color: #d77a61;
+    font-weight: 700;
+    font-style: italic;
+}
+
+/* Gallery */
+
+.gallery-container{
+    width: 90%;
+    margin: 1.5rem auto;
+}
+.gallery-title{
+    text-align: center;
+    padding: .5em;
+}
+
+.cards{
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.card{
+    background-color: #252422;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
+.card__body{
+    padding: .5em 1em 1.5em;
+}
+
+.card__body h3{
+    margin-bottom: 1em;
+}
+
+
+.description{
+    line-height: 1.5;
+}
+
+.radius{
+    border-radius: 8px 8px 0 0;
+}
+
+.text{
+    background-color: #000;
+    padding: 1em;
+    margin-bottom: 2rem;
+    color: #fff;
+    text-align: center;
+}
+
+.footer{
+    background-color: #000;
+    color: #fff;
+}
+
+.footer-title{
+    padding: 1em 0;
+    font-size: 23px;
+    text-align: center;
+}
+
+.footer-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    text-align: center;
+}
+
+.img-profile{
+    width: 20%;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+
+.profile span{
+    display: block;
+}
+
+
+
+
+
+
+
